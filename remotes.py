@@ -22,7 +22,7 @@ if __name__=='__main__':
     server_socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     print ("[+] Socket is listening")
     server_socket.bind(('', 12000)) 
-    print('[+] Got connection from 192.168.1.160') 
+    print('[+] Got connection from here_also') 
     while True:
 
         message, address = server_socket.recvfrom(1024)
