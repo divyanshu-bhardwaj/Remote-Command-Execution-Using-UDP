@@ -21,7 +21,7 @@ if __name__=='__main__':
         msg = input("Enter the command that you want to exec : ")
         
         message = bytes(msg,'utf-8')
-        addr = ("192.168.1.164", 12000)
+        addr = ("Enter_here", 12000)
 
         client_socket.sendto(message, addr)
         try:
